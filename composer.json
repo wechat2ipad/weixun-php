@@ -1,0 +1,36 @@
+{
+    "name": "weixun/weixun-php",
+    "description": "微寻微信协议 API 的 PHP SDK",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "wechat",
+        "wechat-api",
+        "bot",
+        "weixun"
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Weixun\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Weixun\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "support": {
+        "issues": "https://github.com/wechat2ipad/weixun-php/issues",
+        "source": "https://github.com/wechat2ipad/weixun-php"
+    }
+}
